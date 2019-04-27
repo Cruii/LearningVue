@@ -1,4 +1,4 @@
-# vuedemo
+# LearningVue
 
 ## Project setup
 ```
