@@ -20,6 +20,15 @@
             <router-link to="/09_FormInputBind">09_表单输入绑定</router-link>
             |
             <router-link to="/10_LifeCycle">10_Vue的生命周期</router-link>
+            |
+            <router-link to="/11_TransitionAndAnimation">11_过渡和动画</router-link>
+            |
+            <router-link to="/12_CustomizeFilter">12_过滤器</router-link>
+            |
+            <router-link to="/13_Command">13_指令</router-link>
+            |
+            <router-link to="/14_Plugin">14_插件</router-link>
+
         </div>
         <router-view></router-view>
     </div>

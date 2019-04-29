@@ -10,7 +10,10 @@ import FilterAndSortedList from './views/07_FilterAndSortedList'
 import Event from './views/08_Event'
 import FormInputBind from './views/09_FormInputBind'
 import LifeCycle from './views/10_LifeCycle'
-
+import TransitionAndAnimation from './views/11_TransitionAndAnimation'
+import CustomizeFilter from './views/12_CustomizeFilter'
+import Command from './views/13_Command'
+import Plugin from './views/14_Plugin'
 
 Vue.use(Router);
 
@@ -67,6 +70,26 @@ export default new Router({
       path: '/10_LifeCycle',
       name: 'LifeCycle',
       component: LifeCycle,
+    },
+    {
+      path: '/11_TransitionAndAnimation',
+      name: 'TransitionAndAnimation',
+      component: TransitionAndAnimation,
+    },
+    {
+      path: '/12_CustomizeFilter',
+      name: 'CustomizeFilter',
+      component: CustomizeFilter,
+    },
+    {
+      path: '/13_Command',
+      name: 'Command',
+      component: Command,
+    },
+    {
+      path: '/14_Plugin',
+      name: 'Plugin',
+      component: Plugin,
     }
   ]
 })
