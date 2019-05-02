@@ -1,12 +1,12 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
-import store from './store'
+// 引入样式的另一种方式
+import './css/base.css'
 
 Vue.config.productionTip = false;
 
 new Vue({
-  router,
-  store,
-  render: h => h(App)
-}).$mount('#app');
+    router,
+    render: h => h(App)
+}).$mount('#root');

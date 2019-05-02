@@ -32,7 +32,7 @@
 
                 // 设置值时调用该方法
                 set(value) {
-                    var strs = value.split(' ');
+                    const strs = value.split(' ');
                     if (strs.length > 1) {
                         this.firstName = strs[0];
                         this.lastName = strs[1];

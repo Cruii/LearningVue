@@ -1,10 +1,12 @@
 <template>
     <div>
         <h2>该例子只演示ref指令和v-cloak指令</h2>
+        <h2>ref指令</h2>
         <p ref="content">Chen Rui</p>
         <button @click="hint">提示</button>
 
         <!--防止闪现  即在渲染前会在页面上显示{{msg}}，而不是具体内容-->
+        <h2>v-cloak指令</h2>
         <p v-cloak>{{ msg }}</p>
         <!--        <p v-text="msg"></p>-->
 

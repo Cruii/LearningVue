@@ -8801,7 +8801,7 @@ packages:
       node: '>= 0.8.0'
     resolution:
       integrity: sha1-03aNabHn2C5c4FD/9bRTvqEqkjk=
-      tarball: /serve-index/download/serve-index-1.9.1.tgz
+      tarball: /serve-demo01/download/serve-demo01-1.9.1.tgz
   /serve-static/1.13.2:
     dependencies:
       encodeurl: 1.0.2

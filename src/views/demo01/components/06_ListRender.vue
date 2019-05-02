@@ -51,7 +51,7 @@
             },
             updatePerson(index, person) {
                 // 没有调用变异方法（具体参考官方文档）所以不会更新界面
-                // this.persons[index] = person;
+                // this.persons[demo01] = person;
                 // splice方法可以完成【增删改】三个操作。
                 this.persons.splice(index, 1, person);
             }

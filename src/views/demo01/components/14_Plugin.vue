@@ -7,7 +7,7 @@
 
 <script>
     import Vue from 'vue'
-    import MyPlugin from '@/components/vue-myplugin'
+    import MyPlugin from '@/assets/plugin/vue-myplugin'
 
     // 声明使用插件
     // 内部会执行MyPlugin.install(Vue)

@@ -5,8 +5,6 @@
         <p>完整版：{{ date | dateFilter }}</p>
         <p>年月日：{{ date | dateFilter('YYYY-MM-DD') }}</p>
         <p>时分秒：{{ date | dateFilter('HH:mm:ss') }}</p>
-
-        <p>{{ date }}</p>
     </div>
 </template>
 <script>
